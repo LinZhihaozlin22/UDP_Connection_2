@@ -1,5 +1,6 @@
 # UDP_Connection_2
 Client using customized protocol on top of UDP protocol for requesting identification from server for access permission to the network.
+(One client connects to one server.)
 
 Assumption: 
 If client receive a reject packet, it will print the rejected error and then keep sending the rest packets to server. (ack_timer for that packet will also stop after receiving reject response.)
